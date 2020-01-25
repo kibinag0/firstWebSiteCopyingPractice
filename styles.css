@@ -1,0 +1,586 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+
+
+/* header section */
+
+header{
+  background-color: #00aeef;
+  position: relative;
+}
+
+.header-div{
+
+  height: 64px;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.logo{
+  width: 190px;
+  height: 22.156px;
+  padding-top: 20px;
+}
+
+
+/* main section  */
+
+main{
+  height: 5248px;
+  background-color: white;
+
+}
+
+.gusan{
+
+  background: url(images/index_im01.png) no-repeat 50% 0;
+  height: 595px;
+  margin: 0 auto 60px;
+
+}
+
+.gusan-inner{
+  width: 960px;
+  margin: auto;
+  position: relative;
+
+}
+
+.formpic{
+  position: absolute;
+  right: 0;
+  top: -13px;
+}
+
+.gusan-form{
+  background-color: white;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  padding-top: 60px;
+  width: 375px;
+  height: 434px;
+}
+
+.form-wrapper{
+  width: 345px;
+  height: 434px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.steps{
+  vertical-align: top;
+}
+
+.form-box{
+  width: 345px;
+  height: 39px;
+  background-color: #eee;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.form-left{
+  position: relative;
+  display: inline-block;
+  width: 72px;
+  line-height: 1.4;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.dl-class{
+  margin: 0;
+}
+
+.form-center{
+  position: relative;
+  display: inline-block;
+  margin: auto 0;
+  width: 202px;
+  height:15px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fff;
+  background-size: 11px auto;
+  font-size: 14px;
+  padding: 11px 8px;
+  vertical-align: middle;
+  }
+
+.ok-button{
+  position: relative;
+  display: inline-block;
+  background: url(images/ok-button.png) no-repeat 0 0;
+  width: 31px;
+  height: 31px;
+  font-size: 10px;
+  left: 3px;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0);
+
+}
+
+.step2{
+  margin-top: 10px;
+}
+
+.grey-box{
+  margin-top: 5px;
+
+  background-color: #bbb;
+  padding: 15px 0 15px 45px;
+  display: inline-block;
+  width: 300px;
+  height: 26px;
+  text-align: center;
+  color: white;
+}
+
+.in-grey{
+  margin-top: 0;
+  background: url(images/mail.png) no-repeat 20px 50%;
+
+}
+
+/* ぐっさんのフォームここまで */
+
+/* ここからコンテンツ */
+
+.contents{
+  background-color: white;
+  height: 495px;
+
+}
+
+.img-yose{
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0;
+}
+
+/* ここからリバブルを選ぶ理由 */
+
+#reasons h2{
+  text-align: center;
+  margin: 0 auto;
+  height: 29px;
+}
+
+#reasons h2 img{
+  margin-bottom: -31px;
+}
+
+/* 理由 No.1 */
+
+#reason1{
+  margin: 0 auto;
+  padding: 90px 0 83px;
+  background-color: #effaff;
+}
+
+.reason1-content{
+  height: 367px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.reason1-left{
+  height: 234px;
+  width: 440px;
+  padding-top: 60px;
+  float: left;
+}
+
+.reason1-left p{
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+
+.reason1-left img{
+  float: right;
+  display: block;
+}
+
+.reason1-right{
+    float: right;
+}
+
+/* 理由No.2 */
+
+#reason2{
+  margin: 0 auto;
+  padding: 88px 0 75px;
+  width: 960px;
+  height: 514px;
+}
+
+.reason2-lead{
+    margin: 0 0 10px!important;
+    color: #00a0e9;
+    font-weight: 700;
+    font-size: 24px!important;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.reason2-img{
+  padding: 60px 0 0 26px!important;
+  float: left!important;
+}
+
+
+
+/* 理由 No.3 */
+
+#reason3{
+
+  padding: 80px 0 0;
+  height: 401px;
+  background-color: #effaff;
+}
+
+.reason3-wrap{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.reason3-content{
+  height: 281px;
+  width: 960px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.reason3-left{
+  height: 186px;
+  width: 460px;
+  padding: 65px 0 30px 10px!important;
+  float: left;
+}
+
+.reason3-img{
+  padding: 0!important;
+  float: left!important;
+}
+
+
+
+/* 理由 No.4 */
+#reason4{
+  margin: 78px auto 80px;
+  width: 960px;
+  height: 517px;
+}
+
+.reason4-text{
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.reason4-div{
+  margin: 60px auto 0 10px;
+}
+
+.reason4-div ul{
+  list-style: "※";
+  width: 950px;
+  padding-left: 10px;
+  margin: 20px 0 0 0;
+  font-size: 12px;
+}
+
+
+/* 理由 No.5 */
+#reason5{
+  padding: 85px 0;
+  background-color: #effaff;
+  height: 539px;
+}
+
+.reason5-wrap{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.reason5-content{
+  height: 377px;
+  width: 920px;
+  margin: 0 20px;
+  padding-top: 50px;
+}
+
+.reason5-left{
+  display: block;
+  float: left;
+}
+
+.img4-yose{
+  margin: 25px 0 20px;
+}
+
+.reason5-text{
+  font-size: 9px;
+  height: 20px;
+  margin: 0;
+}
+
+.reason5-right{
+  display: block;
+  float: right;
+}
+
+/* 最後のBOX */
+
+#lastbox{
+  height: 834px;
+  width: 1280px;
+  padding-bottom: 40px;
+  background: url(https://www.livable.co.jp/images/baikyaku-lp_pc/index_bg06.jpg) repeat-x 0 0;
+}
+
+.last-content1{
+  height: 127px;
+  width: 581px;
+  margin: auto;
+}
+
+.last-pic1{
+  margin: -35px auto 0;
+}
+
+.last-content2{
+  height: 334px;
+  width: 960px;
+  margin: 6px auto 0;
+}
+
+/* 最後のForm */
+
+#last-form{
+  width: 960px;
+  height: 367px;
+  margin: 0 auto;
+}
+
+.last-box-img{
+  height: 108px;
+  margin-top: -53px;
+}
+
+.inside-last-form{
+  padding: 18px 18px 20px 17px;
+  height: 274px;
+  width: 925px;
+  background-color: white;
+  margin-top: -6px;
+}
+
+.step1-last-box{
+  padding: 0px;
+  width: 925px;
+  height: 68px;
+}
+
+.step1-title{
+  padding: 0 0 3px;
+  height: 16px;
+}
+
+.step1-title img{
+  vertical-align: top;
+}
+
+.step1-form-box{
+  width: 913px;
+  height: 39px;
+  padding: 5px 0 5px 12px;
+  background-color: #eee;
+}
+
+.bukken-type{
+  height: 39px;
+  width: 62px;
+  font-size: 11px;
+  text-align: center;
+  display: table-cell;
+}
+
+.bukken-type-form{
+  display: table-cell;
+  width: 851px;
+  height: 39px!important;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.bukken-type-select-box{
+  width: 335px;
+  height: 37px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #fff url(https://www.livable.co.jp/images/baikyaku-lp_pc/index_ic02.png) no-repeat 94% 50%;
+  background-size: 11px auto;
+  display: inline-block;
+}
+
+.select-button{
+  width: 317px;
+  font-size: 14px;
+  background: none transparent;
+  border: none;
+  margin: 11px 8px;
+  cursor: pointer;
+  line-height: 1.1;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.last-ok-button{
+  display: inline-block;
+  vertical-align: middle;
+  height: 31px;
+}
+
+/* STEP2 of last box */
+
+.step2-last-box{
+  width: 925px;
+  height: 122px;
+  margin: 12px auto 7px;
+
+}
+
+.step2-last-box-content{
+  height: 98px;
+  width: 901px;
+  padding: 5px 12px 0 12px;
+  background-color: #eee;
+}
+
+.step2-first{
+  height: 39px;
+  width: 901px;
+  padding-bottom: 6px;
+}
+
+.step2-modify{
+  padding-left: 0!important;
+  width: 440px!important;
+  display: table-cell;
+  padding-top: 0;
+}
+
+.step2-bukken-type-form{
+  width: 378px!important;
+}
+
+.center-arrow{
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.step2-second{
+  border-top: 2px solid #fff;
+  height: 39px;
+  width: 901px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.mail-tel-last-box{
+  width: 705px;
+  height: 60px;
+  margin: auto 110px;
+  margin-left: 100px;
+  padding-top: 12px;
+}
+
+.last-box-contact{
+  background-color: #bbb;
+  width: 310px;
+  height: 27px;
+  border-bottom: 3px solid #888;
+  display: table-cell;
+  text-align: center;
+  color: white;
+  padding-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* ここから footer */
+
+footer{
+  height: 219px;
+  border-top: 1px solid #00aeef;
+}
+
+.first-footer-content{
+  height: 82px;
+  width: 768px;
+  background-color: white;
+  margin: auto;
+  padding: 48px 0;
+}
+
+
+.norton-text-div{
+  height: 56px;
+  width: 604px;
+  float: left;
+  padding-left: 16px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.norton-img{
+  float: left;
+  vertical-align: center;
+  width: 115px;
+  height: 82px;
+}
+
+.norton-text{
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  vertical-align: middle;
+  float: left;
+}
+
+.second-content{
+  height: 40px;
+  background-color: #00aeef;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.all-right-text{
+  font-size: 12px;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.all-right-img{
+  width: 871px;
+  font-size: 12px;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
